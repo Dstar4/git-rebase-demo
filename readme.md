@@ -36,3 +36,21 @@ You can pick, squash, edit, or drop commits
 - Drop: Will not select that commit to be included.
 
 Once action is selected for the commits you can take the selected actions to each one and progress through them with `git rebase --continue`
+
+## Recovering from problems with a rebase
+
+- You can run `git rebase --abort` at any time during a rebase to transition your work into the state it was right before you ran the rebase command.
+- You can run `git reflog` to recover from more serious problems. If you can find the here HEAD was at right before you ran a command that you want to recover from you can generally checkout or rebase onto this HEAD to recover your work.
+
+## Work in progress commits
+
+You can use a soft reset to undo your last commit
+`git reset --soft HEAD~1`
+
+This allows you to make work in progress commits when you want to make sure you don't lose work. (Ex. Checking out a branch for a PR review, breaking for lunch, stopping for the day, etc.)
+
+You can then un-stage the committed files and continue working as normal.
+
+## Oh no I comited a `console.log`
+
+Don't worry no one has to know.
