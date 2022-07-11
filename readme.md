@@ -23,3 +23,16 @@
 
 - If multiple people are working on the same branch it is usually not the optimal solution.
 - It can be a little more complex than merging
+
+## Interactive rebase
+
+`git rebase -i {{branch-name}}`
+
+You can pick, squash, edit, or drop commits
+
+- Pick: Selects a commit to be included
+- Squash: Squashes a commit, combining it with another
+- Edit: Allows you to change a commit
+- Drop: Will not select that commit to be included.
+
+Once action is selected for the commits you can take the selected actions to each one and progress through them with `git rebase --continue`
