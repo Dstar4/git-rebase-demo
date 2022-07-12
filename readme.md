@@ -54,6 +54,7 @@ You can then un-stage the committed files and continue working as normal.
 ## Additional Resources
 
 - [Oh Shit Git](https://ohshitgit.com/)
+- [Git Visualizations](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1)
 - [Atomic Commits](https://www.freshconsulting.com/insights/blog/atomic-commits/)
 - [Git Rebase Recipes](https://hotelengine.atlassian.net/wiki/spaces/DEVELOPMEN/pages/1307246593/Git+Rebase+Recipes)
-- [Git Visualizations](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1)
+- [Writing a Great Commit Message](https://hotelengine.atlassian.net/wiki/spaces/DEVELOPMEN/pages/1308065814/Write+A+Great+Commit+Message)
