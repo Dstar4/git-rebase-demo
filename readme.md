@@ -51,6 +51,9 @@ This allows you to make work in progress commits when you want to make sure you 
 
 You can then un-stage the committed files and continue working as normal.
 
-## Oh no I comited a `console.log`
+## Additional Resources
 
-Don't worry no one has to know.
+- [Oh Shit Git](https://ohshitgit.com/)
+- [Atomic Commits](https://www.freshconsulting.com/insights/blog/atomic-commits/)
+- [Git Rebase Recipes](https://hotelengine.atlassian.net/wiki/spaces/DEVELOPMEN/pages/1307246593/Git+Rebase+Recipes)
+- [Git Visualizations](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1)
